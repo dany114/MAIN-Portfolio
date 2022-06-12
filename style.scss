@@ -1,0 +1,60 @@
+$primary__black: #000;
+$primary__white: #fff;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: $primary__black;
+}
+
+.main{
+    background-color: $primary__black;
+    color: $primary__white;
+    min-height: 100vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+    h1{
+        font-size: 1.8rem;
+        margin-bottom: 1rem;
+    }
+
+    h2{
+        font-size: .8rem;
+    }
+
+    @media screen and (min-width: 768px){
+        h1{
+            font-size: 2rem;
+        }
+        
+        h2{
+            font-size: 1.4rem;
+        }
+    }
+}
+
+.skills{
+    background-color: $primary__white;
+
+    .skill{
+        margin-bottom: 1rem;
+    }
+}
+
+.skills-logo{
+    max-width: 10rem;;
+    height: auto;
+    margin: 2rem 0;
+}
+
+.fa-tire{
+    width: 500px;
+    background-color: red;
+}
